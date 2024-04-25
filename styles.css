@@ -224,6 +224,8 @@ h1 {
   background-color: #a5a49a;
   width: 100%;
   margin-top: -250px;
+  z-index: 1;
+  position: relative;
   /* position: absolute; */
   /* margin-bottom: 50%; */
 

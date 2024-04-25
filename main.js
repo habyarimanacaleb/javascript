@@ -12,10 +12,7 @@ const signupBtn = document.getElementById('signup-btn');
 const signupTitlte = document.getElementById('signup-title');
 const namefield = document.getElementById('nameField');
 
- // Fetch input values from form validation
 
- const username = document.getElementById("username").value.trim();
- const email = document.getElementById("email").value.trim();
 //  const password = document.getElementById("password").value.trim();
 
 
@@ -78,7 +75,10 @@ toggleButton.addEventListener('click',function(){
 
   document.getElementById("contact-us").addEventListener("submit", function(event) {
      event.preventDefault(); // Prevent form submission
+  // Fetch input values from form validation
 
+  const username = document.getElementById("username").value.trim();
+  const email = document.getElementById("email").value.trim();
     // Validate inputs
     const errors = [];
     if (username === "") {
